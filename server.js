@@ -27,12 +27,12 @@ hbs.registerHelper('capitalizar', (text) => {
 
 app.get('/', function (req, res) {
     res.render('home',{
-        nombre: 'fernando barrabes',
+        nombre: 'fernando',
     })
 });
 app.get('/about', function (req, res) {
     res.render('about',{
-        nombre: 'Fernando barrabes',
+        nombre: 'fernando',
     })
 });
 
